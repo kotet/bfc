@@ -3,5 +3,8 @@ CFLAGS := -Wall -Wextra
 
 bfc:
 
+test: bfc
+	./test.sh
+
 clean:
-	$(RM) bfc
+	$(RM) bfc tmp*
